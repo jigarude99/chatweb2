@@ -1,0 +1,12 @@
+<div class="content align-column center-center">
+  <h1 style="margin-top: -100px; margin-bottom: 30px;">Iniciar Sesión</h1>
+  <form class=" align-row full-w" [formGroup]="form">
+    <div style="width: 50%; padding: 20px;" class="align-column end-center">
+      <input type="text" style="width: 50%; padding: 4px; padding-top: 8px; padding-bottom: 8px;" placeholder="Email" formControlName="email">
+    </div>
+    <div style="width: 50%; padding: 20px;" class="align-column start-center">
+      <input type="password" style="width: 50%; padding: 4px; padding-top: 8px; padding-bottom: 8px;" placeholder="Contraseña" formControlName="password">
+    </div>
+  </form>
+  <a class="a-button-sm" style="margin-top: 15px;" (click)="login()">Login</a>
+</div>

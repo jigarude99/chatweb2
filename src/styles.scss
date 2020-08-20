@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-family: sans-serif;
+}
+
+.full-w {
+  width: 100%;
+}
+
+.full-h {
+  height: 100%;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+.align-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.start-start {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.start-center {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.start-end {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.center-start {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.center-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.center-end {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.end-start {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.end-center {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.end-end {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.a-button {
+  padding: 12px 30px 12px 30px;
+  margin: 8px;
+  text-decoration: none;
+  background-color: #FFCA28;
+  color: black;
+  font-weight: 600;
+  border-radius: 100px;
+}
+
+.a-button-sm {
+  padding: 6px 30px 6px 30px;
+  margin: 8px;
+  text-decoration: none;
+  background-color: #FFCA28;
+  color: black;
+  font-weight: 600;
+  border-radius: 100px;
+}
+
+.danger {
+  background-color: #ab0000 !important;
+  color: white !important;
+}
+
+.a-button:hover {
+  cursor: pointer;
+}
+
+.a-button-sm:hover {
+  cursor: pointer;
+}
